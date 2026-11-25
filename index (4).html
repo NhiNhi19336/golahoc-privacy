@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2340c8">
+<title>Chính sách quyền riêng tư · Gõ Là Học</title>
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#f4f6fc,#0f1430);--paper:light-dark(#fff,#161d40);--ink:light-dark(#151c3f,#e6eaff);--mute:light-dark(#5b6385,#a3abd0);--blue:light-dark(#2340c8,#93a6ff);--line:light-dark(#c9d2f0,#2c3668)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,"Noto Sans",sans-serif;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+main{max-width:760px;margin:0 auto;padding:24px max(4vw,16px) 60px}
+h1{color:var(--blue);font-size:clamp(26px,6vw,34px);line-height:1.2;margin:8px 0 4px}
+h2{font-size:18px;margin:26px 0 6px}
+.d{color:var(--mute);font-size:14px;margin:0 0 18px}
+section{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:4px 18px 14px;margin-top:18px}
+a{color:var(--blue);overflow-wrap:anywhere}
+ul{padding-inline-start:20px}li{margin:4px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>Chính sách quyền riêng tư</h1>
+<p class="d">Áp dụng cho ứng dụng Gõ Là Học trên Android và bản web. Cập nhật ngày 25/11/2026.</p>
+
+<section>
+<h2>Tóm tắt</h2>
+<ul>
+<li>Không cần tài khoản, không quảng cáo, không theo dõi, không bán dữ liệu.</li>
+<li>Chữ bạn gõ hoặc nói được gửi đi để AI dịch và giảng. Thẻ ôn, lịch sử và cài đặt chỉ nằm trên máy bạn.</li>
+<li>Đừng nhập mật khẩu, số tài khoản hay thông tin nhạy cảm vào app.</li>
+</ul>
+
+<h2>Dữ liệu được gửi đi</h2>
+<ul>
+<li><b>Chữ cần dịch hoặc chấm:</b> khi bạn bấm Dịch, Sửa câu, Luyện chat hoặc dùng Phiên dịch, đoạn chữ đó cùng vài câu trước trong hội thoại (để dịch đúng ngữ cảnh) được gửi tới máy chủ trung gian của app (Cloudflare Workers), rồi tới Google Gemini API để tạo câu trả lời. Máy chủ trung gian không lưu nội dung lâu dài; nó có thể nhớ tạm câu trả lời trong bộ nhớ một thời gian ngắn để lần sau trả lời nhanh hơn.</li>
+<li><b>Google Gemini API</b> xử lý nội dung theo <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">điều khoản của Google</a>. Với gói miễn phí, Google có thể dùng nội dung gửi lên để cải thiện sản phẩm của họ.</li>
+<li><b>Giọng nói:</b> app dùng dịch vụ nhận giọng nói và đọc văn bản có sẵn trên điện thoại (thường là của Google). Âm thanh do dịch vụ đó xử lý theo chính sách của nhà cung cấp; app chỉ nhận lại chữ đã nghe được, không ghi âm và không gửi âm thanh cho nhà phát triển.</li>
+<li><b>Báo cáo:</b> khi bạn bấm “Báo cáo” dưới một nội dung AI, nội dung đó, ghi chú của bạn và ngôn ngữ đang dùng được gửi cho nhà phát triển để kiểm tra và sửa lỗi.</li>
+<li><b>Nhật ký kỹ thuật:</b> máy chủ ghi mã lỗi, thời gian phản hồi và địa chỉ IP trong thời gian ngắn để chống lạm dụng và sửa lỗi.</li>
+<li><b>Phông chữ:</b> app tải phông chữ từ Google Fonts. Như mọi yêu cầu mạng thông thường, Google nhận được địa chỉ IP của bạn khi tải phông.</li>
+</ul>
+
+<h2>Dữ liệu chỉ nằm trên máy bạn</h2>
+<p>Thẻ ôn, lịch sử phiên dịch, các câu đã dịch gần đây và cài đặt được lưu trong bộ nhớ của app trên máy. Gỡ app hoặc xoá dữ liệu app là xoá hết.</p>
+
+<h2>Quyền micro</h2>
+<p>App xin quyền micro chỉ để nghe khi bạn bấm nút micro. App không nghe ngầm.</p>
+
+<h2>Trẻ em</h2>
+<p>App không nhắm tới trẻ dưới 13 tuổi.</p>
+
+<h2>Liên hệ</h2>
+<p>Có thắc mắc hoặc muốn yêu cầu xoá dữ liệu đã gửi qua nút “Báo cáo”, xin gửi về: <a href="mailto:ltuenhi44@gmail.com">ltuenhi44@gmail.com</a></p>
+</section>
+
+<section lang="en">
+<h2>Privacy policy (English)</h2>
+<ul>
+<li>No account, no ads, no tracking, no selling of data.</li>
+<li><b>Sent for processing:</b> text you type or speak, plus a few previous lines of the conversation for context, is sent to the app’s relay server (Cloudflare Workers) and then to the Google Gemini API to produce translations and feedback. The relay does not store content long-term; it may keep responses briefly in memory to answer repeated requests faster. Google processes the content under the <a href="https://ai.google.dev/gemini-api/terms" rel="noopener">Gemini API terms</a>; on the free tier Google may use it to improve its products.</li>
+<li><b>Voice:</b> speech recognition and read-aloud use the speech services on your phone (usually Google’s). The app only receives the recognized text; it does not record audio or send audio to the developer.</li>
+<li><b>Reports:</b> when you tap “Report”, the AI content, your note and the languages in use are sent to the developer.</li>
+<li><b>Technical logs:</b> the server briefly keeps error codes, response times and IP addresses to prevent abuse and fix bugs.</li>
+<li><b>Fonts:</b> the app loads fonts from Google Fonts. As with any network request, Google receives your IP address when the fonts are fetched.</li>
+<li><b>Stored only on your device:</b> review cards, interpreter history, recent translations and settings. Uninstalling the app or clearing its data removes them.</li>
+<li><b>Microphone:</b> used only after you tap a mic button; the app never listens in the background.</li>
+<li>Not directed at children under 13.</li>
+<li><b>Contact:</b> <a href="mailto:ltuenhi44@gmail.com">ltuenhi44@gmail.com</a></li>
+</ul>
+</section>
+</main>
+</body>
+</html>
